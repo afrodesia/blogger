@@ -1,0 +1,71 @@
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+   and (min-width : 768px)
+   and (max-width : 1024px) {
+
+
+}
+
+/* iPads (landscape) ----------- */
+
+@media only screen
+   and (min-width : 768px)
+   and (max-width : 1024px)
+   and (orientation : landscape) {
+
+
+
+}
+
+/* iPads (portrait) ----------- */
+
+@media only screen
+   and (min-width : 768px)
+   and (max-width : 1024px)
+   and (orientation : portrait) {
+
+
+
+}
+
+@media screen and (max-width : 48em) {
+
+
+   
+
+}
+
+/*Styles for screen 768px and lower*/
+                  /* Max-width 768px */
+@media screen and (max-width : 48em) {
+
+
+
+}
+/*Styles for screen 600px and lower*/
+                  /* Max-width 600px */
+@media screen and (max-width : 37.5em) {
+
+
+
+}
+/*Smartphone portrait max-width 568px*/
+                   /*Max-width 568px*/
+@media screen and (max-width : 35.5em) {
+
+
+
+}
+
+/*Smartphone portrait max-width 380px*/
+@media screen and (max-width : 23.75em){
+
+
+
+}
+                 /* Max-width 320px */
+@media screen and (max-width: 20em) {
+
+
+
+} 

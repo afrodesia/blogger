@@ -1,0 +1,26 @@
+/********************************************************************
+  
+  website: Site Name
+  author : Ken Torry
+  version: 1.0
+  year : 2013 
+
+*********************************************************************/
+
+html, body{
+	background: #eeeeee;
+	color: #333;
+}
+
+
+/*___________________________________________________________________ 
+
+BASE STYLES
+____________________________________________________________________*/
+#header-wrapper,
+#global-wrapper{
+	width: 74%;
+	margin: 40px auto;
+}
+.header-section{text-align: center;}
+h1 span{color: #c45050;}
