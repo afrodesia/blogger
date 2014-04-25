@@ -1,4 +1,4 @@
-## Laravel PHP Framework Boilerplate
+## Blogger 
 
-This is a starting point for my custom laravel development.
+Simple laravel blogging application.
 
