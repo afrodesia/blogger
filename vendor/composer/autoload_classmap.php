@@ -232,6 +232,8 @@ return array(
     'CoffeeScript\\yy_Try' => $vendorDir . '/coffeescript/coffeescript/src/CoffeeScript/yy/Try.php',
     'CoffeeScript\\yy_Value' => $vendorDir . '/coffeescript/coffeescript/src/CoffeeScript/yy/Value.php',
     'CoffeeScript\\yy_While' => $vendorDir . '/coffeescript/coffeescript/src/CoffeeScript/yy/While.php',
+    'CreateCommentTable' => $baseDir . '/app/database/migrations/2014_04_25_214423_create_comment_table.php',
+    'CreatePostsTable' => $baseDir . '/app/database/migrations/2014_04_25_211701_create_posts_table.php',
     'Crypt_AES' => $vendorDir . '/phpseclib/phpseclib/phpseclib/Crypt/AES.php',
     'Crypt_Base' => $vendorDir . '/phpseclib/phpseclib/phpseclib/Crypt/Base.php',
     'Crypt_Blowfish' => $vendorDir . '/phpseclib/phpseclib/phpseclib/Crypt/Blowfish.php',
