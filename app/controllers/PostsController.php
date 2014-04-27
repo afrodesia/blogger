@@ -31,7 +31,7 @@ class PostController extends BaseController{
 	public function deletePost(Post $post)
 	{
 		$post->delete();
-		return Redirect::route('post.list')->with('sucess', 'Post is deleted!');
+		return Redirect::route('post.list')->with('success', 'Post is deleted!');
 	}
 
 	public function savePost()
@@ -82,11 +82,11 @@ class PostController extends BaseController{
 			if(count($post->getDirty()) > 0)
 			{
 				$post->save();
-				return Redirect::back()->with('sucess', 'Post is updted');
+				return Redirect::back()->with('success', 'Post is updted');
 
 			}
 			else
-				return Redirect::back()->with('sucess', 'Nothing to Update');
+				return Redirect::back()->with('success', 'Nothing to Update');
 			
 		}
 		else
